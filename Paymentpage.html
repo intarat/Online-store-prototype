@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Payment page</title>
+    <style>
+        .access-point1 {border: 1px solid black; height: 100px; text-align: center; background-color: #FFF2CC ;}
+        .access-point2 { height: 450px; text-align: center; background-color: white ;}
+        .access-point3 {border: 1px solid black; height: 700px;text-align: center; background-color: #FFF2CC;}
+        .access-point4 {border: 1px solid black; height: 200px; text-align: center; background-color: lightskyblue;}
+        .access-point5 {border: 1px solid black; height: 42px; text-align: center;background-color: salmon;}
+        .checked {
+  color: orange;
+}
+    </style>
+</head>
+<body>
+    <div name="homepage header" > 
+      <nav class="navbar navbar-light " style='background-color:#FFF2CC ;'>
+        <a class="navbar-brand" href="#">
+          <img src="https://images.pexels.com/photos/7302107/pexels-photo-7302107.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" width="30" height="50" class="d-inline-block align-top" alt="">
+          Painterparadise
+        </a>
+        <p>Welcome back! User</p>
+        <button style="font-size:24px; background-color: white;">View cart <i class="fa fa-cart-arrow-down"></i></button>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+         
+      </nav>
+    </div>
+    <div name="Nav" class="access-point5">
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Brush</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Tools</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link " href="#">Canvas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#">Ongoing promotion</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#">logout</a>
+            </li>
+        </ul>
+    </div>
+    <div name="table" style="background-color: lightgray;" > 
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col" style="font-size: larger;">Product</th>
+            <th scope="col" style="font-size: larger;">quantity</th>
+            <th scope="col" style="font-size: larger;">price</th>
+            <th scope="col">.</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Neo-classic brush</th>
+            <td>2</td>
+            <td>500</td>
+            <td>
+              <a href="#" class="badge badge-danger">Remove order</a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">-</th>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <th scope="row">-</th>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <th scope="row">-</th>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <th scope="row">-</th>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <th scope="row">-</th>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <th scope="row">-</th>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <th scope="row">-</th>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <th scope="row">-</th>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <th scope="row">-</th>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+        
+        </tbody>
+      </table>
+  
+
+    </div>
+    <div name="suggest" style="text-align: left; padding-left: 20px; padding-top: 50px; background-color: lightgray;">
+        <h4>Featured item you may like</h>
+          <div class="container" style="padding-top: 20px;">
+            <div class="row">
+              <div class="col">
+                <div class="form-group" >
+                  <label for="exampleInputEmail1" >Enter referral code</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="PAINT-xxx-yyyy">
+                  <label style="padding-top: 20px;">Shipping Address</label>
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Select address
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Home</a>
+                      <a class="dropdown-item" href="#">Office</a>
+                    </div>
+                  </div>
+                  <label style="padding-top: 20px;">Delivery method</label>
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Select method
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Lineman</a>
+                      <a class="dropdown-item" href="#">Kerry</a>
+                      <a class="dropdown-item" href="#">Regular</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label for="exampleInputEmail1" style="font-size: larger;">Total price: 500 THB</label>
+                  <p style="padding-bottom: 140px;">Delivery fee 15 THB</p>
+                  <button type="button" class="btn btn-success" style="font-size: larger;">Proceed to payment</button>
+                  
+                </div>
+              </div>
+            </div>
+        </div> 
+    </div>
+    <div name="Footer" class = "access-point4">
+      <!-- Footer -->
+<footer class="text-left text-white">
+  <!-- Grid container -->
+  <div class="container ">
+    <!-- Section: Social media -->
+    <section class="col-md-6">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><img src="https://cdn-icons.flaticon.com/png/512/2504/premium/2504903.png?token=exp=1635409458~hmac=8d4d358ea8a76dd4b24b56e167c11443" style="height: 40px;" class="rounded">
+      </a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><img src="https://cdn-icons.flaticon.com/png/512/2504/premium/2504839.png?token=exp=1635410593~hmac=1544b914e12a98ed72a54e27236ddb06" style="height: 40px;" class="rounded">
+      </a>
+
+      <!-- tiktok -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" style="height: 40px;" class="rounded">
+      </a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><img src="https://cdn-icons-png.flaticon.com/512/1409/1409946.png" style="height: 40px;" class="rounded">
+      </a>
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Text -->
+    <section >
+      <h1 style="color: black;">Contact us</h1>
+      <p style= "color: black;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+        eum harum corrupti dicta, aliquam sequi voluptate quas.
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+    
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <!-- <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div> -->
+  <!-- Copyright -->
+</footer>
+<!-- Footer --> 
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!-- <div class="row">
+  <div class="col-6">
+      <p style='text-indent: -50%; font-size: 200%;'>Contact us</p>
+      <p style='text-indent: -40%; font-size: 100%;'>Email: painterparadise@mockupmail.com</p>
+      <p style='text-indent: -15%; font-size: 100%;'>Address: 1608 Pine Street, Pittsburgh, PA, Pennsylvania 15222</p>
+  </div>
+  <div class="col-6"> <div class='col-md-6'><img class='col-md-6' src="/image/instragram logo.jpg" width="10" ></div>
+</div> -->
